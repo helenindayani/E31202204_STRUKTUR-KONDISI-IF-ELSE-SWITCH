@@ -1,0 +1,45 @@
+
+import java.util.Scanner;
+
+/*import java.util.Scanner;
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author HELLEN
+ */
+public class PAP4 {
+    public static void main(String[]  args){
+        
+        //Buat Scanner
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Masukkan Nilai Huruf  : ");
+        String huruf =  input.next();
+        
+        switch(huruf){
+            case "T" :
+                System.out.println("9");
+                break;
+            case "U" :
+                System.out.println("8");
+                break;
+            case "V" :
+                System.out.println("7");
+                break;
+            case "W" :
+                System.out.println("6");
+                break;
+            case "X" :
+                System.out.println("0");
+                break;
+                
+            default :
+                System.out.println("ERROR");
+                
+        }
+    }
+}
